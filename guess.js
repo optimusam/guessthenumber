@@ -47,9 +47,5 @@ function checkGuess ()
         }
 }
 
-//reset.addEventListener("click", function () {
-//    num = Math.floor(Math.random()*100 +1);
-//    guesses.classList.add("hide");
-//    lastResult.classList
-//})
+
 
