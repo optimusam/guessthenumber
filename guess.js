@@ -47,5 +47,12 @@ function checkGuess ()
         }
 }
 
+//linked Enter key to submit button
+guess.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode == 13) {
+        submit.click();
+    }
+});
 
 
