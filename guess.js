@@ -21,7 +21,7 @@ submit.addEventListener("click", function () {
         lastResult.textContent = "You ran out of turns!";
         lowOrHi.classList.add("hide");
     }
-    
+    guess.value = '';
 });
 
 function checkGuess () 
