@@ -1,4 +1,4 @@
-var num = Math.floor(Math.random()*100 +1);
+var num = Math.floor(Math.random()*1000 +1);
 var guess = document.querySelector("#guessField");
 var guesses = document.querySelector(".guesses");
 var lastResult = document.querySelector("#lastResultDisp");
@@ -13,7 +13,7 @@ submit.addEventListener("click", function () {
     count++;
     aal.push(Number(guess.value));
     guesses.classList.remove("hide");
-    if(count<=10){
+    if(count<=15){
         allGuess.textContent = aal;
         checkGuess();
     }
