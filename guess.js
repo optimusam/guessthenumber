@@ -34,6 +34,7 @@ function checkGuess ()
         guess.disabled = true;
         lowOrHi.classList.add("hide");
         reset.classList.remove("hide");
+        submit.classList.add("hide");
     }
     else if(aal[latest] < num)
         {
